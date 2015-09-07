@@ -9,6 +9,5 @@ contact_attributes = [
 ]
 
 contact_attributes.each do |attributes|
-  contact = Contact.new(attributes)
-  contact.save
+  Contact.create(attributes)
 end
